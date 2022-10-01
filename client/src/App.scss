@@ -1,0 +1,42 @@
+.App {
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+
+  .search {
+    margin-bottom: 30px;
+
+    input {
+      border-radius: 5px;
+      margin-right: 5px;
+    }
+
+    button {
+      width: 100px;
+      height: 20px;
+      background: #3f3f3f;
+      color: white;
+      border-radius: 5px;
+      border: none;
+    }
+  }
+
+  .main {
+    .api {
+      margin-bottom: 10px;
+      padding: 5px 0;
+      border-bottom: 1px solid #3f3f3f;
+
+      .item {
+        .item-title {
+          font-size: 15px;
+          font-weight: 700;
+        }
+
+        .item-content {
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
